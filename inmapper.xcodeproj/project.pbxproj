@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2065ECC5D4A458CB22CB3B6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F287E3AB0A94EE495F75B24 /* libPods.a */; };
+		CD9C384219620058005CEAA2 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C382C19620058005CEAA2 /* AFHTTPClient.m */; };
+		CD9C384319620058005CEAA2 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C382E19620058005CEAA2 /* AFHTTPRequestOperation.m */; };
+		CD9C384419620058005CEAA2 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C383019620058005CEAA2 /* AFImageRequestOperation.m */; };
+		CD9C384519620058005CEAA2 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C383219620058005CEAA2 /* AFJSONRequestOperation.m */; };
+		CD9C384619620058005CEAA2 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C383419620058005CEAA2 /* AFNetworkActivityIndicatorManager.m */; };
+		CD9C384719620058005CEAA2 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C383719620058005CEAA2 /* AFPropertyListRequestOperation.m */; };
+		CD9C384819620058005CEAA2 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C383919620058005CEAA2 /* AFURLConnectionOperation.m */; };
+		CD9C384919620058005CEAA2 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C383B19620058005CEAA2 /* AFXMLRequestOperation.m */; };
+		CD9C384A19620058005CEAA2 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C383D19620058005CEAA2 /* UIImageView+AFNetworking.m */; };
+		CD9C384B19620058005CEAA2 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CD9C383F19620058005CEAA2 /* SVProgressHUD.bundle */; };
+		CD9C384C19620058005CEAA2 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9C384119620058005CEAA2 /* SVProgressHUD.m */; };
 		F542DA7217F4F5FC00CE9CF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F542DA7117F4F5FC00CE9CF9 /* Foundation.framework */; };
 		F542DA7417F4F5FC00CE9CF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F542DA7317F4F5FC00CE9CF9 /* CoreGraphics.framework */; };
 		F542DA7617F4F5FC00CE9CF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F542DA7517F4F5FC00CE9CF9 /* UIKit.framework */; };
@@ -54,7 +64,28 @@
 
 /* Begin PBXFileReference section */
 		3F287E3AB0A94EE495F75B24 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D52652043C24507B13DCDE7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		CD9C382B19620058005CEAA2 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		CD9C382C19620058005CEAA2 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		CD9C382D19620058005CEAA2 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		CD9C382E19620058005CEAA2 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		CD9C382F19620058005CEAA2 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		CD9C383019620058005CEAA2 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		CD9C383119620058005CEAA2 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		CD9C383219620058005CEAA2 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		CD9C383319620058005CEAA2 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		CD9C383419620058005CEAA2 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		CD9C383519620058005CEAA2 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		CD9C383619620058005CEAA2 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		CD9C383719620058005CEAA2 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		CD9C383819620058005CEAA2 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		CD9C383919620058005CEAA2 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		CD9C383A19620058005CEAA2 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		CD9C383B19620058005CEAA2 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		CD9C383C19620058005CEAA2 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		CD9C383D19620058005CEAA2 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		CD9C383F19620058005CEAA2 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		CD9C384019620058005CEAA2 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		CD9C384119620058005CEAA2 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		F542DA6E17F4F5FC00CE9CF9 /* inmapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inmapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F542DA7117F4F5FC00CE9CF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F542DA7317F4F5FC00CE9CF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,7 +150,6 @@
 				F542DA7417F4F5FC00CE9CF9 /* CoreGraphics.framework in Frameworks */,
 				F542DA7617F4F5FC00CE9CF9 /* UIKit.framework in Frameworks */,
 				F542DA7217F4F5FC00CE9CF9 /* Foundation.framework in Frameworks */,
-				F2065ECC5D4A458CB22CB3B6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +166,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD9C382A19620058005CEAA2 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CD9C382B19620058005CEAA2 /* AFHTTPClient.h */,
+				CD9C382C19620058005CEAA2 /* AFHTTPClient.m */,
+				CD9C382D19620058005CEAA2 /* AFHTTPRequestOperation.h */,
+				CD9C382E19620058005CEAA2 /* AFHTTPRequestOperation.m */,
+				CD9C382F19620058005CEAA2 /* AFImageRequestOperation.h */,
+				CD9C383019620058005CEAA2 /* AFImageRequestOperation.m */,
+				CD9C383119620058005CEAA2 /* AFJSONRequestOperation.h */,
+				CD9C383219620058005CEAA2 /* AFJSONRequestOperation.m */,
+				CD9C383319620058005CEAA2 /* AFNetworkActivityIndicatorManager.h */,
+				CD9C383419620058005CEAA2 /* AFNetworkActivityIndicatorManager.m */,
+				CD9C383519620058005CEAA2 /* AFNetworking.h */,
+				CD9C383619620058005CEAA2 /* AFPropertyListRequestOperation.h */,
+				CD9C383719620058005CEAA2 /* AFPropertyListRequestOperation.m */,
+				CD9C383819620058005CEAA2 /* AFURLConnectionOperation.h */,
+				CD9C383919620058005CEAA2 /* AFURLConnectionOperation.m */,
+				CD9C383A19620058005CEAA2 /* AFXMLRequestOperation.h */,
+				CD9C383B19620058005CEAA2 /* AFXMLRequestOperation.m */,
+				CD9C383C19620058005CEAA2 /* UIImageView+AFNetworking.h */,
+				CD9C383D19620058005CEAA2 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		CD9C383E19620058005CEAA2 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CD9C383F19620058005CEAA2 /* SVProgressHUD.bundle */,
+				CD9C384019620058005CEAA2 /* SVProgressHUD.h */,
+				CD9C384119620058005CEAA2 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 		F542DA6517F4F5FC00CE9CF9 = {
 			isa = PBXGroup;
 			children = (
@@ -143,7 +209,6 @@
 				F542DA9C17F4F5FC00CE9CF9 /* inmapperTests */,
 				F542DA7017F4F5FC00CE9CF9 /* Frameworks */,
 				F542DA6F17F4F5FC00CE9CF9 /* Products */,
-				5D52652043C24507B13DCDE7 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -285,6 +350,8 @@
 		F55B312C17F5AB2700CFF4EF /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				CD9C382A19620058005CEAA2 /* AFNetworking */,
+				CD9C383E19620058005CEAA2 /* SVProgressHUD */,
 				F55B312D17F5AB2700CFF4EF /* NMConstants.h */,
 			);
 			path = Util;
@@ -307,11 +374,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F542DAA617F4F5FC00CE9CF9 /* Build configuration list for PBXNativeTarget "inmapper" */;
 			buildPhases = (
-				35086B991D7E4E4897818948 /* Check Pods Manifest.lock */,
 				F542DA6A17F4F5FC00CE9CF9 /* Sources */,
 				F542DA6B17F4F5FC00CE9CF9 /* Frameworks */,
 				F542DA6C17F4F5FC00CE9CF9 /* Resources */,
-				066FD0826D4B4B34812E1B0A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -347,11 +412,11 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = NM;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Astor Tech";
 				TargetAttributes = {
 					F542DA9417F4F5FC00CE9CF9 = {
-						TestTargetID = F542DA6D17F4F5FC00CE9CF9 /* inmapper */;
+						TestTargetID = F542DA6D17F4F5FC00CE9CF9;
 					};
 				};
 			};
@@ -379,6 +444,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9C384B19620058005CEAA2 /* SVProgressHUD.bundle in Resources */,
 				F542DA8817F4F5FC00CE9CF9 /* Main_iPad.storyboard in Resources */,
 				F542DA9017F4F5FC00CE9CF9 /* Images.xcassets in Resources */,
 				F542DA8517F4F5FC00CE9CF9 /* Main_iPhone.storyboard in Resources */,
@@ -396,45 +462,16 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		066FD0826D4B4B34812E1B0A /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		35086B991D7E4E4897818948 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		F542DA6A17F4F5FC00CE9CF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9C384519620058005CEAA2 /* AFJSONRequestOperation.m in Sources */,
+				CD9C384419620058005CEAA2 /* AFImageRequestOperation.m in Sources */,
+				CD9C384719620058005CEAA2 /* AFPropertyListRequestOperation.m in Sources */,
 				F55B312817F5AA7900CFF4EF /* NMRequestDispatcher.m in Sources */,
+				CD9C384819620058005CEAA2 /* AFURLConnectionOperation.m in Sources */,
 				F542DA7E17F4F5FC00CE9CF9 /* main.m in Sources */,
 				F5F9AC351833D5D7004A4E79 /* Model.xcdatamodeld in Sources */,
 				F58C5DF91834957B002B8327 /* NMMapController.m in Sources */,
@@ -444,14 +481,20 @@
 				F55B312517F5AA7900CFF4EF /* NMToPosition.m in Sources */,
 				F55B312317F5AA7900CFF4EF /* NMGraphController.m in Sources */,
 				F5EC135F17F5AC4100158D8F /* NMLocationService.m in Sources */,
+				CD9C384619620058005CEAA2 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				F5F9AC3B1833D70D004A4E79 /* NMDataStore.m in Sources */,
+				CD9C384A19620058005CEAA2 /* UIImageView+AFNetworking.m in Sources */,
+				CD9C384C19620058005CEAA2 /* SVProgressHUD.m in Sources */,
+				CD9C384919620058005CEAA2 /* AFXMLRequestOperation.m in Sources */,
 				F55B312A17F5AA7900CFF4EF /* NMProgressHUD.m in Sources */,
+				CD9C384319620058005CEAA2 /* AFHTTPRequestOperation.m in Sources */,
 				F59AEA361810F1B30095C8E4 /* NMSession.m in Sources */,
 				F55B312717F5AA7900CFF4EF /* NMAccelerometerFilter.m in Sources */,
 				F59AEA301810CE3D0095C8E4 /* NMCommunicationService.m in Sources */,
 				F55B312417F5AA7900CFF4EF /* NMOperation.m in Sources */,
 				F59AEA2D1810C2260095C8E4 /* NMSessionController.m in Sources */,
 				F5F9AC3F1833FB23004A4E79 /* NMPosition.m in Sources */,
+				CD9C384219620058005CEAA2 /* AFHTTPClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,7 +556,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -553,7 +595,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -585,7 +626,6 @@
 		};
 		F542DAA717F4F5FC00CE9CF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D52652043C24507B13DCDE7 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -601,7 +641,6 @@
 		};
 		F542DAA817F4F5FC00CE9CF9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D52652043C24507B13DCDE7 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -618,7 +657,6 @@
 		F542DAAA17F4F5FC00CE9CF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/inmapper.app/inmapper";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -641,7 +679,6 @@
 		F542DAAB17F4F5FC00CE9CF9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/inmapper.app/inmapper";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
